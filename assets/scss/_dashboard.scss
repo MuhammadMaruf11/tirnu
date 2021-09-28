@@ -1,0 +1,115 @@
+@use "common" as *;
+
+.dash-title{
+    padding: 25px 0;
+    h4{
+        margin: 0;
+        font-size: 17px;
+    }
+}
+
+.bell-icon{
+    padding: 25px 0;
+}
+
+.btn-wrap{
+    text-align: center;
+    .btn-icon{
+        display: block;
+        height: 48px;
+        width: 48px;
+        line-height: 48px;
+        border: 0 solid #000;
+        text-align: center;
+        background: #e6ecf9;
+        border-radius: 8px;
+        margin: 0 auto 10px;
+    }
+    .btn-content{
+        h5{
+            font-size: 12px;
+            font-weight: 500;
+            color: #545f7a;
+            display: inline-block;
+            margin: 0;
+        }
+    }
+}
+
+.history-title{
+    h3{
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+}
+
+.history-link{
+    a{
+        font-size: 15px;
+        color: $theme-color;
+        &:hover{
+            color: $body-color;
+        }
+    }
+}
+
+.history-plan{
+    h5{
+        font-size: 13px;
+        font-weight: 500;
+        color: #545f7a;
+        margin-bottom: 20px;
+    }
+}
+
+
+.history-logo{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #F4F6FA;
+    padding: 0 9px;
+    img{
+        width: 22px;
+    }
+    .profile-logo{
+        img{
+            width: 40px;
+        }
+    }
+}
+
+.history-content{
+    h3{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    h4{
+        font-size: 13px;
+        font-weight: 400;
+        color: #545f7a;
+        margin: 0;
+    }
+}
+
+.history-amount{
+    h4{
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+.card-slider-wrapper{
+    position: relative;
+    overflow: hidden;
+    .card-slider{
+        margin-right: -150px;
+        .single-slide{
+            padding-right: 20px;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

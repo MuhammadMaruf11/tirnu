@@ -1,0 +1,108 @@
+@use "common" as *;
+
+
+.sign-header{
+    h3{
+        margin: 0;
+        font-size: 17px;
+    }
+}
+
+.sign-wrap{
+    form{
+        label{
+            font-size: 13px;
+            line-height: 16px;
+            color: #545F7A;
+            margin-bottom: 10px;
+        }
+        .number-wrap{
+            .input-wrap{
+                position: relative;
+                .icon{
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    padding: 0 10px;
+                    height: 100%;
+                    border: 1px solid #EAEDF4;
+                    line-height: 40px;
+                }
+                input{
+                    width: 100%;
+                    height: 44px;
+                    padding-left: 56px;
+                    padding-right: 20px;
+                    border: 1px solid #EAEDF4;
+                    border-radius: 2px;
+                    &:focus{
+                        @include placeholder(){
+                            color: transparent;
+                        }
+                    }
+                }
+                .right-arrow{
+                    position: absolute;
+                    right: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    margin-right: 10px;
+                }
+            }
+        }
+        .password-wrap{
+            .input-wrap{
+                position: relative;
+                .icon{
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    padding: 0 10px;
+                    height: 100%;
+                    line-height: 40px;
+                }
+                input{
+                    width: 100%;
+                    height: 44px;
+                    padding-left: 20px;
+                    padding-right: 44px;
+                    border: 1px solid #EAEDF4;
+                    border-radius: 2px;
+                    &:focus{
+                        @include placeholder(){
+                            color: transparent;
+                        }
+                    }
+                }
+            }
+        }
+        .recover{
+            margin-bottom: 30px;
+            a{
+               font-weight: 600;
+               font-size: 16px;
+                img{
+                    margin-right: 10px;
+                }
+            }
+        }
+        button{
+            outline: none;
+            border: none;
+        }
+        .amount-value{
+            margin-bottom: 60px;
+            h2{
+                font-size: 32px;
+                font-weight: 500;
+                margin: 0;
+            }
+            p{
+                font-size: 32px;
+                font-weight: 500;
+                margin: 0;
+                line-height: 1.3;
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+@use "common" as *;
+ 
+.splash-logo{
+    .logo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        img{
+            width: 65px;
+            height: 65px;
+        }
+    }
+}

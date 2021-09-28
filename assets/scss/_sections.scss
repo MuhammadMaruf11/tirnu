@@ -1,0 +1,142 @@
+@use "common" as *;
+
+.time-title {
+  h6 {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    color: #999;
+  }
+
+  h3 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #999;
+  }
+
+  .more-icon {
+    font-size: 17px;
+    color: #999;
+  }
+}
+
+.calendar-wrapper {
+  .title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #0F1B2D;
+    margin-bottom: 30px;
+  }
+
+  .hbContainer {
+    max-width: 400px;
+    margin: auto;
+
+    .calendarYearMonth {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 12px;
+      border-top: 1px solid #EAEDF4;
+      border-bottom: 1px solid #EAEDF4;
+      margin-bottom: 10px;
+
+      #yearMonth {
+        font-weight: 500;
+        font-size: 17px;
+        color: #0F1B2D;
+        margin-bottom: 0;
+      }
+
+      .calBtn {
+        font-weight: 500;
+        font-size: 17px;
+        color: $theme-color;
+        margin-bottom: 0;
+        cursor: pointer;
+      }
+    }
+
+    .calendarList1 {
+      list-style: none;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(1, 40px);
+      align-items: center;
+      justify-items: center;
+      grid-gap: 8px;
+      font-size: 15px;
+      line-height: 18px;
+      color: #545F7A;
+    }
+
+    .calendarList2 {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(6, 40px);
+      align-items: center;
+      justify-items: center;
+      grid-gap: 8px;
+      font-size: 16px;
+      line-height: 24px;
+      color: #0F1B2D;
+    }
+  }
+}
+
+.exchange-info {
+  h4 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #0F1B2D;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 18px;
+    color: #545F7A;
+  }
+}
+
+.services-title-2 {
+  h2 {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    color: #999999;
+  }
+}
+
+.search-wrap-2 {
+  .input-wrap {
+    input {
+      @include placeholder() {
+        color: #999999;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

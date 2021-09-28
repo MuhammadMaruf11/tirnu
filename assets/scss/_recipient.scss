@@ -1,0 +1,21 @@
+@use "common" as *;
+
+.search-wrap{
+    .search-white{
+        input{
+            color: #545f7a;
+            background: #F9FAFE;
+            &::placeholder{
+                color: #545f7a;
+            }
+        }
+    }
+}
+
+.history-plan{
+    &.first-letter{
+        h5{
+            font-size: 15px;
+        }
+    }
+}

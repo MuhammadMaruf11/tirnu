@@ -1,0 +1,21 @@
+@use "common" as *;
+
+.success-done{
+    a{
+        .icon-plus{
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            background: #F9FAFE;
+            border-radius: 50%;
+            text-align: center;
+            display: inline-block;
+        }
+        h4{
+            color: #1040ba;
+            display: inline-block;
+            font-size: 15px;
+            font-weight: 500;
+        }
+    }
+}

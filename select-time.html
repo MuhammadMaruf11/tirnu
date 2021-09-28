@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+
+    <!-- All CSS -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/spacing.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <title>Transactions/Transaction info</title>
+</head>
+
+<body>
+
+    <div class="transaction-info-area bg-theme" data-overlay="dark" data-opacity="3">
+        <div class="container pt-30 time-title">
+            <div class="row justify-content-end">
+                <div class="col-6 text-center">
+                    <h6>Analytics</h6>
+                </div>
+                <div class="col-3 text-end">
+                    <div class="more-icon">
+                        <i class="fal fa-ellipsis-h"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12 text-center">
+                    <h3>$21,547.23</h3>
+                </div>
+            </div>
+        </div>
+        <div class="container service-transfer">
+            <div class="row pt-20 pb-20">
+                <div class="col-xl-12">
+                    <div class="calendar-wrapper">
+                        <div class="title">
+                            Select time span
+                        </div>
+                        <section id="myCalendar">
+                            <div class="hbContainer">
+                                <div class="calendarYearMonth center">
+                                    <p class="left calBtn" onclick="prevMonth()">
+                                        <i class="far fa-angle-left"></i>
+                                    </p>
+                                    <p id="yearMonth"> Jan 2021 </p>
+                                    <p class="right calBtn" onclick="nextMonth()">
+                                        <i class="far fa-angle-right"></i>
+                                    </p>
+                                </div>
+                                <div>
+                                    <ol class="calendarList1">
+                                        <li class="day-name">Sat</li>
+                                        <li class="day-name">Sun</li>
+                                        <li class="day-name">Mon</li>
+                                        <li class="day-name">Tue</li>
+                                        <li class="day-name">Wed</li>
+                                        <li class="day-name">Thu</li>
+                                        <li class="day-name">Fri</li>
+                                    </ol>
+                                    <ol class="calendarList2" id="calendarList">
+                                    </ol>
+                                </div>
+                            </div>
+                        </section>
+
+                        <a href="#" class="btn-theme mb-20">Apply</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/calendar.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

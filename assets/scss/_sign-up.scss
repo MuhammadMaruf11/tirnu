@@ -1,0 +1,61 @@
+@use "common" as *;
+
+.sign-wrap{
+    .name-wrap{
+        .input-wrap{
+            input{
+                width: 100%;
+                height: 44px;
+                padding-left: 20px;
+                padding-right: 44px;
+                border: 1px solid #EAEDF4;
+                border-radius: 2px;
+                &:focus{
+                    @include placeholder(){
+                        color: transparent;
+                    }
+                }
+            }
+        }
+    }
+    .number-wrap{
+        .sign-up input {
+            padding-left: 20px!important;
+        }
+    }
+    .country-wrap{
+        .input-wrap{
+            position: relative;
+            .icon{
+                position: absolute;
+                left: 0;
+                top: 0;
+                padding: 0 10px;
+                height: 100%;
+                border: 1px solid #EAEDF4;
+                line-height: 40px;
+                pointer-events: none;
+            }
+            .arrow {
+                position: absolute;
+                right: 0;
+                top: 0;
+                height: 100%;
+                line-height: 40px;
+                padding: 0 10px;
+                pointer-events: none;
+            }
+            select{
+                width: 100%;
+                height: 44px;
+                padding-left: 56px;
+                padding-right: 20px;
+                border: 1px solid #EAEDF4;
+                border-radius: 2px;
+                outline: none;
+                appearance: none;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+@use "common" as *;
+
+
+.card-info-item{
+    .card-info-btn{
+        height: 35px;
+        line-height: 38px;
+        background: #F9FAFE;
+        color: $body-color;
+        flex: auto;
+        text-align: center;
+        padding: 0;
+        padding-bottom: 15px;
+        &:focus{
+            color: $heading-color;
+            border-bottom: 1px solid #000;
+        }
+    }
+
+    .nav-tabs{
+        border-bottom: 1px solid #EAEDF4;
+        margin-bottom: 30px;
+        .nav-item{
+            flex: 1 0 0%;
+            .nav-link{
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 18px;
+                color: #545F7A;
+                margin: 0 !important;
+                padding: 10px 15px;
+                border: 0;
+                border-bottom: 2px solid transparent;
+                width: 100%;
+                &:hover,
+                &.active{
+                    color: #0F1B2D;
+                    border-color: #1040BA;
+                }
+            }
+        }
+    }
+}
+
+
+

@@ -1,0 +1,25 @@
+@use "common" as *;
+
+
+.profile-logo-top{
+    &.success-check{
+        width: 108px;
+        height: 108px;
+        line-height: 108px;
+        align-items: center;
+        background: #f7fbfb;
+        border-radius: 50%;
+        img{
+            height: 31px;
+            width: 48px;
+        }
+    }
+}
+
+.success-content{
+    h3{
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0;
+    }
+}
